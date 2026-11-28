@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Mangal Abik Kokoreç — Charcoal kokoreç, köfte & midye · Karaköy</title>
+<meta name="description" content="Late-night street food on Tersane Caddesi, Karaköy: charcoal kokoreç in crispy bread, köfte, sucuk, liver and stuffed mussels. 4.5★ on Google. Order for pickup on WhatsApp.">
+<meta property="og:image" content="https://lh3.googleusercontent.com/grass-cs/AABkmLe23gkEkKnutKlfzNETKpxBdaUcQ8CAs8bt9DNHX1_hNrERQdYbfdzIcPFTzA-VOpfmH4kqJdLzrN_2a_6ny0V_tiBMI7CPrEO48E4lW5NbCRvf0lojAaTexQQgC_dX0Abjo_a6p8JIR3o=w1200">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared/base.css">
+<style>
+:root{
+  --bg:#0e0d0c;--bg-alt:#171513;--fg:#fff7e8;--muted:#b9ae9c;--card:#1b1916;--line:rgba(255,247,232,.12);
+  --accent:#ffd21f;--on-accent:#140f00;--accent-soft:rgba(255,210,31,.13);--red:#e3120b;
+  --nav-bg:rgba(14,13,12,.86);--radius:18px;--radius-btn:14px;
+  --font-display:'Anton',Impact,sans-serif;--font-body:'Space Grotesk',system-ui,sans-serif;--display-weight:400;--display-tracking:.005em;
+}
+h1,h2,h3{text-transform:uppercase}
+.y{color:var(--accent)}.r{color:var(--red)}
+.hero{--hero-overlay:linear-gradient(90deg,rgba(14,13,12,.82) 0%,rgba(14,13,12,.35) 55%,rgba(14,13,12,.1) 100%),linear-gradient(180deg,rgba(14,13,12,.5),rgba(14,13,12,0) 35%,rgba(14,13,12,.95))}
+html[dir=rtl] .hero{--hero-overlay:linear-gradient(270deg,rgba(14,13,12,.82) 0%,rgba(14,13,12,.35) 55%,rgba(14,13,12,.1) 100%),linear-gradient(180deg,rgba(14,13,12,.5),rgba(14,13,12,0) 35%,rgba(14,13,12,.95))}
+.hero h1{font-size:clamp(48px,6.8vw,104px);line-height:.98;max-width:12ch}
+.brand{font-family:var(--font-display);font-weight:400;text-transform:uppercase;letter-spacing:.02em}
+.brand b{color:var(--red);font-weight:400}
+.marquee{background:var(--red);color:#fff;border:0;transform:rotate(-1.5deg);margin:-14px -10px 0;position:relative;z-index:2}
+.marquee-track span::after{color:var(--accent)}
+.sticker{display:inline-block;background:var(--accent);color:var(--on-accent);font-family:var(--font-display);text-transform:uppercase;padding:6px 14px;border-radius:8px;transform:rotate(-3deg);font-size:18px}
+.explain{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.explain-img{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:1/1}
+.explain-img img{width:100%;height:100%;object-fit:cover}
+.explain-img .sticker{position:absolute;inset-inline-start:18px;top:18px}
+.facts{display:grid;gap:12px;margin-top:28px}
+.fact{display:grid;grid-template-columns:46px 1fr;gap:14px;align-items:start;padding:18px;border-radius:16px;background:var(--card);border:1px solid var(--line)}
+.fact .ico{width:46px;height:46px;border-radius:12px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;font-size:22px}
+.fact b{display:block;font-size:17px}
+.fact span{color:var(--muted);font-size:15px}
+.order{display:grid;grid-template-columns:1.5fr 1fr;gap:26px;align-items:start}
+.cat{margin-bottom:30px}
+.cat h3{font-size:28px;margin-bottom:6px;display:flex;align-items:center;gap:12px}
+.cat h3 small{font-family:var(--font-body);text-transform:none;font-size:14px;color:var(--muted);font-weight:500}
+.oi{display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center;padding:14px 0;border-bottom:1px dashed var(--line)}
+.oi b{font-size:16.5px}.oi small{display:block;color:var(--muted);font-size:13.5px}
+.step{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);border-radius:12px;padding:3px}
+.step button{all:unset;cursor:pointer;width:34px;height:34px;border-radius:9px;display:grid;place-items:center}
+.step button:hover{background:var(--accent);color:var(--on-accent)}
+.step output{min-width:22px;text-align:center;font-weight:700}
+.oi.on b{color:var(--accent)}
+.cart{position:sticky;top:90px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px;display:grid;gap:18px}
+.cart h3{font-size:30px}
+.cart-list{min-height:60px;font-size:15px;display:grid;gap:6px}
+.cart-list .empty{color:var(--muted)}
+.cart-list div{display:flex;justify-content:space-between;gap:10px}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;background:var(--bg);padding:5px;border-radius:12px}
+.seg.two{grid-template-columns:1fr 1fr}
+.seg button{all:unset;cursor:pointer;text-align:center;padding:10px 4px;border-radius:9px;font-weight:700;font-size:14px}
+.seg button.on{background:var(--accent);color:var(--on-accent)}
+.cart label{font-size:13px;color:var(--muted);display:grid;gap:8px}
+.cart input{all:unset;border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-weight:700}
+.cart .note{font-size:13px;color:var(--muted);display:flex;gap:8px}
+.review-feature{--feature-bg:var(--accent);--feature-fg:#140f00}
+.review-feature blockquote{font-family:var(--font-body);font-weight:700;text-transform:none}
+.score-big{font-family:var(--font-display);font-weight:400}
+.chat{--bubble-in:#2a2622}
+@media(max-width:960px){.explain,.order{grid-template-columns:1fr}.cart{position:static}}
+</style>
+</head>
+<body data-phone="905333235447" data-hours='["10:30-03:00","10:30-03:00","10:30-03:00","10:30-00:30","10:30-03:00","10:30-03:00","13:00-03:00"]'>
+
+<header class="nav">
+  <div class="container">
+    <a href="#top" class="brand">Mangal <b>Abik</b><small>Kokoreç · Köfte · Sucuk · Midye</small></a>
+    <nav class="nav-links">
+      <a href="#kokorec" data-i18n="nav.what">What is kokoreç?</a>
+      <a href="#order" data-i18n="nav.order">Menu & order</a>
+      <a href="#reviews" data-i18n="nav.reviews">Reviews</a>
+      <a href="#visit" data-i18n="nav.visit">Find us</a>
+    </nav>
+    <div class="lang"><button data-lang="tr">TR</button><button data-lang="en">EN</button><button data-lang="ru">RU</button><button data-lang="ar">AR</button></div>
+    <a class="btn btn-primary btn-sm btn-nav" href="#order"><i data-icon="bag"></i><span data-i18n="cta.order.short">Order</span></a>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-media"><img src="https://lh3.googleusercontent.com/grass-cs/AABkmLe23gkEkKnutKlfzNETKpxBdaUcQ8CAs8bt9DNHX1_hNrERQdYbfdzIcPFTzA-VOpfmH4kqJdLzrN_2a_6ny0V_tiBMI7CPrEO48E4lW5NbCRvf0lojAaTexQQgC_dX0Abjo_a6p8JIR3o=w2200" alt="Mangal Kokoreç sign and grill on Tersane Caddesi at night"></div>
+  <div class="container hero-content">
+    <span class="eyebrow" data-i18n="hero.eyebrow">Tersane Caddesi · Karaköy</span>
+    <h1 style="margin-top:20px" data-i18n="hero.h1">Kokoreç. Köfte. Midye. <span class="y">Till 3 AM.</span></h1>
+    <p class="lead" data-i18n="hero.lead">The red sign on Tersane Caddesi, the smoke from the mangal, and a queue of people who know what they want. Kokoreç chopped on the griddle and stuffed into crispy bread, plus köfte, sucuk, liver and stuffed mussels.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="#order"><i data-icon="bag"></i><span data-i18n="cta.order">Order for pickup</span></a>
+      <a class="btn btn-ghost" href="#kokorec"><span data-i18n="cta.what">What is kokoreç?</span><i data-icon="arrow"></i></a>
+    </div>
+    <div class="hero-meta">
+      <span class="pill"><span class="stars" data-stars="5"></span> 4.5 · <span data-i18n="hero.reviews">206 Google reviews</span></span>
+      <span class="pill"><i data-icon="heart"></i><span data-i18n="hero.staff">“Friendly staff”, 25 reviews</span></span>
+      <span class="pill" data-status></span>
+    </div>
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="marquee-track">
+  <span>Kokoreç</span><span>Köfte ekmek</span><span>Sucuk ekmek</span><span>Midye dolma</span><span>Çıtır ekmek</span><span>Ayran</span>
+  <span>Kokoreç</span><span>Köfte ekmek</span><span>Sucuk ekmek</span><span>Midye dolma</span><span>Çıtır ekmek</span><span>Ayran</span>
+</div></div>
+
+<section class="section" id="kokorec">
+  <div class="container explain">
+    <div class="explain-img reveal"><img src="img/kokorec.jpg" alt="Kokoreç in crispy bread with a glass of ayran, charcoal grill behind" loading="lazy"><span class="sticker" data-i18n="ex.sticker">First time? Read this</span></div>
+    <div>
+      <div class="section-head reveal" style="margin-bottom:0"><span class="eyebrow" data-i18n="ex.eyebrow">Street food 101</span><h2 data-i18n="ex.h2">What is <span class="y">kokoreç?</span></h2>
+      <p data-i18n="ex.p">It's what Istanbul eats at 2 am. Lamb intestines, seasoned and wound around a long skewer, turn slowly over charcoal for hours. Then the usta chops it on a hot griddle with tomato, green pepper and spices and packs it into toasted bread. Not sure? Start with a half.</p></div>
+      <div class="facts">
+        <div class="fact reveal"><span class="ico"><i data-icon="flame"></i></span><div><b data-i18n="ex.1h">Slow over charcoal</b><span data-i18n="ex.1p">Hours on the mangal, until it's crisp outside and juicy inside.</span></div></div>
+        <div class="fact reveal d1"><span class="ico"><i data-icon="sparkle"></i></span><div><b data-i18n="ex.2h">Chopped to order</b><span data-i18n="ex.2p">Diced on the griddle with tomato, pepper, oregano and chili. Prefer it plain? Ask for İzmir style.</span></div></div>
+        <div class="fact reveal d2"><span class="ico"><i data-icon="check"></i></span><div><b data-i18n="ex.3h">Pro tip: say “çıtır”</b><span data-i18n="ex.3p">Ask for your bread extra crispy. The regulars always do, and they know what they're talking about.</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUESTIONS, as a WhatsApp chat -->
+<section class="section alt">
+  <div class="container chat-wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow" data-i18n="fix.eyebrow">No guesswork</span>
+      <h2 data-i18n="fix.h2">Street food, <span class="y">your way</span></h2>
+      <p data-i18n="fix.p">Most of what people ask us fits in one WhatsApp message. Here are the usual ones.</p>
+    </div>
+    <div class="chat reveal d2">
+      <div class="chat-head"><span class="av">MA</span><div><b>Mangal Abik Kokoreç</b><small data-i18n="chat.st">on WhatsApp</small></div></div>
+      <div class="chat-body">
+        <div class="msg in"><span data-i18n="q1">Is it very spicy? I'm with my kids</span><i>20:14</i></div>
+        <div class="msg out"><span data-i18n="a1">Only if you want it to be. Say “acısız” and we'll make it with no chili at all.</span><i>20:15</i></div>
+        <div class="msg in"><span data-i18n="q2">Are you still open? It's past midnight</span><i>00:41</i></div>
+        <div class="msg out"><span data-i18n="a2">Yes, until 3. On Thursdays we close earlier, at half past midnight.</span><i>00:42</i></div>
+        <div class="msg in"><span data-i18n="q3">Can I order to take away?</span><i>21:05</i></div>
+        <div class="msg out"><span data-i18n="a3">Pick what you want in the menu below and hit send. It reaches us already written in Turkish.</span><i>21:05</i></div>
+        <div class="msg in"><span data-i18n="q4">Where exactly are you? I'm at the tram stop</span><i>22:30</i></div>
+        <div class="msg out"><span data-i18n="a4">Walk towards Tersane Caddesi, we're at 93A on the corner. Red sign, grill out front. You'll smell us before you see us.</span><i>22:31</i></div>
+        <div class="msg in"><span data-i18n="q5">How much is a half kokoreç?</span><i>23:10</i></div>
+        <div class="msg out"><span data-i18n="a5">Prices are on the board at the counter and change now and then. Write to us and we'll tell you today's.</span><i>23:11</i></div>
+      </div>
+      <div class="chat-foot"><span data-i18n="chat.foot">Your question…</span><a class="btn btn-wa btn-sm" data-wa="hi"><i data-icon="wa"></i><span data-i18n="chat.send">Ask on WhatsApp</span></a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="order">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow" data-i18n="o.eyebrow">Menu & pickup order</span><h2 data-i18n="o.h2">Build your order, <span class="y">send it in one tap</span></h2><p data-i18n="o.p">Tap + on what you want, pick the heat and the bread. The order gets written in Turkish for the kitchen and goes out on WhatsApp. Prices are on the board at the counter.</p></div>
+    <div class="order">
+      <div id="menuList">
+        <div class="cat reveal"><h3>Kokoreç <small data-i18n="o.c1">charcoal-roasted, chopped to order</small></h3>
+          <div class="oi" data-item="Yarım ekmek kokoreç"><div><b>Yarım ekmek kokoreç</b><small data-i18n="o.i1">Half loaf, with tomato & pepper</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+          <div class="oi" data-item="3 çeyrek İstanbul kokoreç"><div><b>3 çeyrek İstanbul</b><small data-i18n="o.i2">Three-quarter loaf, Istanbul style</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+          <div class="oi" data-item="Sade İzmir kokoreç"><div><b>Sade İzmir</b><small data-i18n="o.i3">Plain İzmir style, half or ¾ loaf</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+          <div class="oi" data-item="Porsiyon kokoreç"><div><b>Porsiyon kokoreç</b><small data-i18n="o.i4">On a plate, no bread</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+          <div class="oi" data-item="Pilav üstü kokoreç"><div><b>Pilav üstü kokoreç</b><small data-i18n="o.i5">Over buttery rice</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+        </div>
+        <div class="cat reveal"><h3>Mangal <small data-i18n="o.c2">from the charcoal grill</small></h3>
+          <div class="oi" data-item="Köfte ekmek"><div><b>Köfte ekmek</b><small data-i18n="o.i6">Grilled meatballs in bread</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+          <div class="oi" data-item="Sucuk ekmek"><div><b>Sucuk ekmek</b><small data-i18n="o.i7">Spicy beef sausage in bread</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+          <div class="oi" data-item="Ekmek arası ciğer"><div><b>Ekmek arası ciğer</b><small data-i18n="o.i8">Grilled liver in bread</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+          <div class="oi" data-item="Porsiyon köfte / sucuk / ciğer"><div><b>Porsiyon köfte · sucuk · ciğer</b><small data-i18n="o.i9">Plate portions with salad</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+        </div>
+        <div class="cat reveal"><h3>Midye <small data-i18n="o.c3">mussels</small></h3>
+          <div class="oi" data-item="Midye dolma"><div><b>Midye dolma</b><small data-i18n="o.i10">Stuffed mussels with spiced rice & lemon</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+          <div class="oi" data-item="Ekmek arası midye"><div><b>Ekmek arası midye</b><small data-i18n="o.i11">Fried mussels in bread</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+        </div>
+        <div class="cat reveal"><h3>Tencere <small data-i18n="o.c4">home-style plates</small></h3>
+          <div class="oi" data-item="Kuru fasulye + pilav"><div><b>Kuru fasulye · Pilav</b><small data-i18n="o.i12">White beans and rice, the Turkish classic</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+          <div class="oi" data-item="Tavuk sote"><div><b>Tavuk sote · Tavuklu pilav</b><small data-i18n="o.i13">Sautéed chicken or chicken rice</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+          <div class="oi" data-item="Ayran"><div><b>Ayran</b><small data-i18n="o.i14">Cold ayran. It just works with kokoreç.</small></div><div class="step"><button type="button" data-d="-1" aria-label="−"><i data-icon="minus"></i></button><output>0</output><button type="button" data-d="1" aria-label="+"><i data-icon="plus"></i></button></div></div>
+        </div>
+      </div>
+      <aside class="cart reveal d2">
+        <h3 data-i18n="o.cart">Your order</h3>
+        <div class="cart-list" id="cartList"></div>
+        <label><span data-i18n="o.heat">Heat</span><div class="seg" id="heat"><button type="button" data-v="Acısız" data-i18n="o.h0">No spice</button><button type="button" data-v="Az acılı" class="on" data-i18n="o.h1">A little</button><button type="button" data-v="Acılı" data-i18n="o.h2">Hot</button></div></label>
+        <label><span data-i18n="o.bread">Bread</span><div class="seg two" id="bread"><button type="button" data-v="Çıtır olsun" class="on" data-i18n="o.b1">Extra crispy</button><button type="button" data-v="Normal" data-i18n="o.b2">Regular</button></div></label>
+        <label><span data-i18n="o.time">Pick-up time</span><input id="pTime" type="time" value="23:00"></label>
+        <a class="btn btn-wa" id="sendOrder" target="_blank" rel="noopener"><i data-icon="wa"></i><span data-i18n="o.send">Send order on WhatsApp</span></a>
+        <p class="note"><i data-icon="globe"></i><span data-i18n="o.note">It's written in Turkish for the kitchen. You just press send.</span></p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow" data-i18n="gal.eyebrow">Gallery</span><h2 data-i18n="gal.h2">Hot off the mangal</h2></div>
+    <div class="gallery reveal" style="columns:2 320px">
+      <img src="https://lh3.googleusercontent.com/grass-cs/AABkmLcycF4Z2P7AXh7dtjNSrD9Y2E13rsv4o42s74SoJgodVLFcblpgApaSuadCAnhMfKSlmClDyXQquDGeMz8wF6c8JHqEJDpk8nHJcPonzK0WogUYWyPNakiZbGlSyWIn5xAPlelgRI4Y_1Ln=w900" alt="Köfte ekmek" loading="lazy">
+      <img src="https://lh3.googleusercontent.com/grass-cs/AABkmLcKCyYcbcmUE_IcOn2HTvG4vOLjZP3NnWcRYlRq2JP6j0hVlQz8tjrG9XX4hosPzuv9NQM7yK5c0e-LlNo5IKn2oxAxdubyPzPAt55L_v1cgqwdB6OvVH7J4Oj6ZiRCsXF2HcphfzgJWFd3=w900" alt="Mangal Kokoreç at dusk" loading="lazy">
+      <img src="https://lh3.googleusercontent.com/grass-cs/AABkmLehMYDu-NoP_dwqMWTPDYzDtK3otuJhaCLWz2hbOBHAu_fH8YgF1LDaJ_lW4nBxAZo0urInj6wSlanLm2xlSGpD6qdBLSuTPIT08ftH-wM8NkTVVL3KfelfGVS0C5nHzYlss6F0T1zq4hXv=w900" alt="Kokoreç in crispy bread" loading="lazy">
+      <img src="https://lh3.googleusercontent.com/grass-cs/AABkmLdvpx758IHTdzHMW2SQYIABgHW-E3Nkamz5MhV5QyYUo4kNG7tIG2C1aWzVdsrE6Fh04ejmxJJ9S-IKaV5hudExghuMR_r0uee9BksW6V65-oD7-KJeb1qiljZJObvVivcctWXMcuFDOnX8=w900" alt="Mangal Kokoreç storefront at night" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="section" id="reviews">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow" data-i18n="rev.eyebrow">4.5 from 206 guests</span><h2 data-i18n="rev.h2">“I came <span class="y">twice in one day</span>”</h2><p data-i18n="rev.p">Real Google reviews. If a guest wrote in another language, we translated it.</p></div>
+    <div class="reviews-top">
+      <div class="review-feature reveal">
+        <blockquote data-i18n="rv.1">“An amazing kokoreç ekmek, full of spices and flavour, with bread crispy outside and soft inside. Very fair for the quality, really fast service, and the people were extremely kind, especially to foreigners.”</blockquote>
+        <footer><span class="avatar" style="background:rgba(0,0,0,.12);color:#140f00">D</span><span>Diana S.<span class="meta" style="color:inherit;opacity:.75">★★★★★ · <span data-i18n="from.en">Google</span></span></span></footer>
+      </div>
+      <div class="score reveal d2">
+        <div style="display:flex;align-items:center;gap:14px"><span class="score-big">4.5</span><span><span class="stars" data-stars="5"></span><span class="meta" data-i18n="hero.reviews">206 Google reviews</span></span></div>
+        <div class="bars">
+          <div class="bar">5<i><b data-w="100"></b></i>159</div>
+          <div class="bar">4<i><b data-w="12"></b></i>19</div>
+          <div class="bar">3<i><b data-w="6"></b></i>10</div>
+          <div class="bar">2<i><b data-w="4"></b></i>6</div>
+          <div class="bar">1<i><b data-w="8"></b></i>12</div>
+        </div>
+        <p class="meta" style="margin-bottom:12px" data-i18n="rev.topics">What guests mention most</p>
+        <div class="chips"><span class="chip"><span data-i18n="ch.1">kokoreç</span><em>50</em></span><span class="chip"><span data-i18n="ch.2">friendly staff</span><em>25</em></span><span class="chip"><span data-i18n="ch.3">mussels</span><em>15</em></span><span class="chip"><span data-i18n="ch.4">meatballs</span><em>8</em></span><span class="chip"><span data-i18n="ch.5">open late</span><em>3</em></span><span class="chip"><span data-i18n="ch.6">crispy bread</span><em>2</em></span></div>
+        <a class="g-link" href="https://www.google.com/maps/search/?api=1&query=Mangal%20Abik%20Kokore%C3%A7%20Tersane%20Cd.%2093%20Beyo%C4%9Flu" target="_blank" rel="noopener"><i data-icon="google"></i><span data-i18n="rev.all">All reviews on Google</span><i data-icon="arrow"></i></a>
+      </div>
+    </div>
+    <div class="review-grid">
+      <article class="review reveal"><div class="stars" data-stars="5"></div><p data-i18n="rv.2">The food here is so delicious that <span class="hl">I came twice in one day!</span> I'll keep coming back while I'm staying nearby. You've been so kind and welcoming. See you tomorrow!</p><footer><span class="avatar">D</span><span>darklord son<span class="meta" data-i18n="from.en">Google</span></span></footer></article>
+      <article class="review reveal d1"><div class="stars" data-stars="5"></div><p data-i18n="rv.3">An unpretentious, warm spot on the corner of Tersane Caddesi. I've been coming for years: <span class="hl">the kokoreç is legendary</span>, good ingredients, a master who knows his job. Crispy bread, generous filling.</p><footer><span class="avatar">E</span><span>Erdoğan T.<span class="meta" data-i18n="from.tr">Google · translated from Turkish</span></span></footer></article>
+      <article class="review reveal d2"><div class="stars" data-stars="5"></div><p data-i18n="rv.4">I love it 😍 <span class="hl">You should order the bread crispy.</span></p><footer><span class="avatar">G</span><span>Gülşen A.<span class="meta" data-i18n="from.en">Google</span></span></footer></article>
+      <article class="review reveal"><div class="stars" data-stars="5"></div><p data-i18n="rv.5">The kokoreç and köfte were very good. <span class="hl">They also treated us to tea and mussels.</span> Thanks!</p><footer><span class="avatar">A</span><span>Ali Y.<span class="meta" data-i18n="from.tr">Google · translated from Turkish</span></span></footer></article>
+      <article class="review reveal d1"><div class="stars" data-stars="5"></div><p data-i18n="rv.6">I've been to quite a few kokoreç places. <span class="hl">For me this was the best one so far.</span> Worth a try!</p><footer><span class="avatar">T</span><span>Toros<span class="meta" data-i18n="from.de">Google · translated from German</span></span></footer></article>
+      <article class="review reveal d2"><div class="stars" data-stars="5"></div><p data-i18n="rv.7">Very tasty! <span class="hl">Big portions, very reasonable prices.</span> They clearly cook for locals. The food comes out fast.</p><footer><span class="avatar">A</span><span>Aleksandra K.<span class="meta" data-i18n="from.ru">Google · translated from Russian</span></span></footer></article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="visit">
+  <div class="container">
+    <div class="section-head reveal"><span class="eyebrow" data-i18n="visit.eyebrow">Find us</span><h2 data-i18n="visit.h2">Tersane Caddesi 93A</h2><p data-i18n="visit.p">In Karaköy, a few minutes from the tram stop and Galata Bridge. Follow the red sign and the smell of the grill.</p></div>
+    <div class="visit">
+      <div class="map reveal"><iframe title="Mangal Abik Kokoreç on Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Mangal%20Abik%20Kokore%C3%A7%2C%20Tersane%20Cd.%2093%20A%2C%20Beyo%C4%9Flu%2C%20%C4%B0stanbul&z=17&output=embed"></iframe></div>
+      <div class="info reveal d2">
+        <h3>Mangal Abik Kokoreç</h3>
+        <div class="info-row"><i data-icon="pin"></i><span>Arap Cami, Tersane Cd. 93 A, 34421 Beyoğlu / İstanbul</span></div>
+        <div class="info-row"><i data-icon="phone"></i><a href="tel:+905333235447" dir="ltr">+90 533 323 54 47</a></div>
+        <div class="info-row"><i data-icon="clock"></i><span data-status></span></div>
+        <table class="hours"><tbody data-hours-table></tbody></table>
+        <div class="btns">
+          <a class="btn btn-primary btn-sm" href="https://www.google.com/maps/dir/?api=1&destination=Mangal%20Abik%20Kokore%C3%A7%2C%20Tersane%20Cd.%2093%20A%2C%20Beyo%C4%9Flu" target="_blank" rel="noopener"><i data-icon="map"></i><span data-i18n="cta.route">Get directions</span></a>
+          <a class="btn btn-wa btn-sm" data-wa="hi"><i data-icon="wa"></i>WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <a href="#top" class="brand">Mangal <b>Abik</b><small>Kokoreç · Köfte · Sucuk · Midye</small></a>
+    <span>© <span data-year></span> Mangal Abik Kokoreç · Tersane Cd. 93A, Karaköy</span>
+  </div>
+</footer>
+
+<nav class="mbar">
+  <a href="tel:+905333235447"><i data-icon="phone"></i><span data-i18n="m.call">Call</span></a>
+  <a class="wa" href="#order"><i data-icon="bag"></i><span data-i18n="m.order">Order</span></a>
+  <a href="#visit"><i data-icon="pin"></i><span data-i18n="m.map">Map</span></a>
+</nav>
+
+<script src="i18n.js"></script>
+<script src="shared/site.js"></script>
+<script>
+(() => {
+  const list = document.getElementById('menuList'), cart = document.getElementById('cartList'), send = document.getElementById('sendOrder');
+  const seg = id => { const el = document.getElementById(id); el.addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; el.querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b)); build(); }); return () => el.querySelector('.on').dataset.v; };
+  const heat = seg('heat'), bread = seg('bread');
+  list.addEventListener('click', e => {
+    const b = e.target.closest('.step button'); if (!b) return;
+    const row = b.closest('.oi'), o = row.querySelector('output');
+    o.textContent = Math.max(0, (+o.textContent) + (+b.dataset.d));
+    row.classList.toggle('on', +o.textContent > 0); build();
+  });
+  document.getElementById('pTime').addEventListener('input', build);
+  document.addEventListener('langchange', build);
+  function build() {
+    const items = [...list.querySelectorAll('.oi')].map(r => [r.dataset.item, +r.querySelector('output').textContent]).filter(x => x[1] > 0);
+    cart.innerHTML = items.length ? items.map(([n, q]) => `<div><span>${n}</span><b>× ${q}</b></div>`).join('') : `<span class="empty">${SITE.tr('o.empty')}</span>`;
+    const msg = ['Merhaba Mangal Abik! Gel-al siparişi:', ...(items.length ? items.map(([n, q]) => `• ${q} × ${n}`) : ['• (menüden seçeceğim)']),
+      `Acı: ${heat()}`, `Ekmek: ${bread()}`, `Teslim saati: ${document.getElementById('pTime').value || '…'}`, 'İsim: …'].join('\n');
+    send.href = SITE.waUrl(msg);
+  }
+  build();
+})();
+</script>
+</body>
+</html>
